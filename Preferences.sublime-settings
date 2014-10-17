@@ -1,0 +1,15 @@
+{
+	"font_size": 21,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"trim_trailing_white_space_on_save": true,
+	"ensure_newline_at_eof_on_save": true,
+	"rulers": [80],
+	"bold_folder_labels": true,
+	"highlight_modified_tabs": true,
+	"bold_folder_labels": true,
+	"caret_style": "phase",
+	"highlight_modified_tabs": true
+}
