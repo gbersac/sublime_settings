@@ -5,3 +5,6 @@
 !.gitignore
 !Preferences.sublime-settings
 !Default (Linux).sublime-keymap
+!README.md
+!/snippets
+!/snippets/**
