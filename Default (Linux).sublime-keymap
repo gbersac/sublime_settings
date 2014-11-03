@@ -10,5 +10,6 @@
     { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
     { "keys": ["alt+up"], "command": "swap_line_up" },
     { "keys": ["alt+down"], "command": "swap_line_down" },
-    { "keys": ["ctrl+alt+shift+w"], "command": "close_all" }
+    { "keys": ["ctrl+alt+shift+w"], "command": "close_all" },
+    { "keys": ["ctrl+shift+s"], "command": "save_all" }
 ]
