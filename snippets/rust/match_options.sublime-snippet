@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+match ${1} {
+	Some(x) => {${2}},
+	None => {${3}}
+};
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>match_option</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.rust</scope>
+</snippet>
