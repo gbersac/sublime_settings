@@ -1,0 +1,16 @@
+<snippet>
+	<name>Attribute implementation</name>
+    <content><![CDATA[
+$1	${TM_FILENAME/(.+)\..+|.*/$1/:name}::get${3:$2}() const
+{
+	return _${2:attrName};
+}
+
+void	${TM_FILENAME/(.+)\..+|.*/$1/:name}::set${3:$2}($1 &val)
+{
+	_${2:attrName} = val;
+}
+]]></content>
+    <tabTrigger>attr_def</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>

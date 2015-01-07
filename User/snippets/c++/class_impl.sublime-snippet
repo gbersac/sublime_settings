@@ -1,0 +1,39 @@
+<snippet>
+	<name>Class</name>
+    <content><![CDATA[
+#include "${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}.hpp"
+
+${1/(\w+).*/$1/}::${1/(\w+).*/$1/}()
+{
+
+}
+
+${1/(\w+).*/$1/}::${1/(\w+).*/$1/}(${1/(\w+).*/$1/} const &model)
+{
+	*this = model;
+}
+
+${1/(\w+).*/$1/}::~${1/(\w+).*/$1/}()
+{
+
+}
+
+std::string	${1/(\w+).*/$1/}::toString() const
+{
+	return "${1/(\w+).*/$1/}";
+}
+
+${1/(\w+).*/$1/}&	${1/(\w+).*/$1/}::operator=(${1/(\w+).*/$1/} const &copy)
+{
+	return *this;
+}
+
+std::ostream	&operator<<(std::ostream &o, ${1/(\w+).*/$1/} const &i)
+{
+	o << i.toString();
+	return o;
+}
+]]></content>
+    <tabTrigger>class_impl</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>

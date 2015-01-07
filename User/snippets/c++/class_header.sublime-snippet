@@ -1,0 +1,29 @@
+<snippet>
+	<name>Class</name>
+    <content><![CDATA[
+#ifndef ${1:${TM_FILENAME/(.+)\..+|.*/\U$1/:name}}_HEADER
+#define ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}_HEADER
+
+#include <string>
+#include <iostream>
+
+class ${2:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+public:
+	${2/(\w+).*/$1/}();
+	${2/(\w+).*/$1/}(${2/(\w+).*/$1/} const &);
+	virtual ~${2/(\w+).*/$1/}();
+	std::string	toString() const;
+
+	${2/(\w+).*/$1/}&	operator=(${2/(\w+).*/$1/} const &);
+
+	$0
+};
+
+std::ostream	&operator<<(std::ostream &o, ${2/(\w+).*/$1/} const &i);
+
+#endif /*${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}_HEADER*/
+]]></content>
+    <tabTrigger>class_header</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>

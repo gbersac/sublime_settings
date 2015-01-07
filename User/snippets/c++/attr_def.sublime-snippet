@@ -1,0 +1,10 @@
+<snippet>
+	<name>Attribute definition</name>
+    <content><![CDATA[
+${1:type}	_${3:name};
+$1	get${4:$3}() const;
+void	set${4:$3}($1 &val);
+]]></content>
+    <tabTrigger>attr_def</tabTrigger>
+    <scope>source.c++, source.objc++</scope>
+</snippet>
