@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Preferences.sublime-settings
+!Default (Linux).sublime-keymap
+!/snippets
+!/snippets/**
+!Default (OSX).sublime-keymap

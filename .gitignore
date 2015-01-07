@@ -3,9 +3,6 @@
 
 # But not these files...
 !.gitignore
-!Preferences.sublime-settings
-!Default (Linux).sublime-keymap
+!/User
+!/User/.gitignore
 !README.md
-!/snippets
-!/snippets/**
-!Default (OSX).sublime-keymap
