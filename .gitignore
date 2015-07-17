@@ -6,3 +6,6 @@
 !/User
 !/User/.gitignore
 !README.md
+
+# still those ones
+.DS_Store
