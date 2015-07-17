@@ -14,8 +14,8 @@ $ rm -rf sublime_settings
 
 ##Sous Mac
 ```
-$cd ~/Library/Application Support/Sublime Text 3/Packages
+$ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
 $ git clone https://github.com/gbersac/sublime_settings.git
-$ cp -r sublime_settings/* .; cp -rf sublime_settings/.git/ sublime_settings/.gitignore .;
+$ cp -r sublime_settings/* .
 $ rm -rf sublime_settings
 ```
