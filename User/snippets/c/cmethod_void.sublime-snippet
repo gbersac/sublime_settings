@@ -1,9 +1,13 @@
 <snippet>
 	<content><![CDATA[
-(${1:char}*)malloc(${2:${3:3} * }sizeof(${1:char}));
+${1:int}	${2:funcname}(${3});
+
+$0${1:int}	${2:funcname}(${3})
+{
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>malloc</tabTrigger>
+	<tabTrigger>cfunction_void</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.c, source.c++</scope>
 </snippet>

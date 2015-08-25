@@ -1,9 +1,14 @@
 <snippet>
 	<content><![CDATA[
-(${1:char}*)malloc(${2:${3:3} * }sizeof(${1:char}));
+${1:iter} = ${2:lst};
+while (${1:iter} != NULL)
+{
+	$0
+	${1:iter} = ${2:lst}->next;
+}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>malloc</tabTrigger>
+	<tabTrigger>lwhile</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.c, source.c++</scope>
 </snippet>

@@ -8,3 +8,5 @@
 !/snippets
 !/snippets/**
 !Default (OSX).sublime-keymap
+
+.DS_Store
