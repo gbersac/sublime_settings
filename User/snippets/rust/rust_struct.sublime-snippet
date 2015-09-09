@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+#[derive(Debug)]
+struct ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+	${2},
+}
+
+impl ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+	pub fn new(${3}) -> ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+	{
+		${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
+			${4},
+		}
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>struct</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.rust</scope>
+</snippet>

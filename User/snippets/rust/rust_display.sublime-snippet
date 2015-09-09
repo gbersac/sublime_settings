@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+use std::fmt::{Formatter, Display, Error};
+
+impl Display for ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+	fn fmt(&self, f: &mut Formatter) -> Result<(), Error>
+	{
+		write!(f, "${2}");
+		Ok(())
+	}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>display</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.rust</scope>
+	<description>Impl display trait</description>
+</snippet>
