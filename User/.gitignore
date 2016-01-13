@@ -3,6 +3,7 @@
 
 # But not these files...
 !.gitignore
+!move_by_paragraph.py
 !Preferences.sublime-settings
 !Default (Linux).sublime-keymap
 !/snippets
