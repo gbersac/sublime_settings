@@ -1,10 +1,14 @@
 [
-    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false}},
-    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true}},
+    { "keys": ["alt+super+up"], "command": "select_lines", "args": {"forward": false}},
+    { "keys": ["alt+super+down"], "command": "select_lines", "args": {"forward": true}},
+
     { "keys": ["ctrl+alt+shift+w"], "command": "close_all"},
     { "keys": ["ctrl+shift+s"], "command": "save_all"},
+
     { "keys": ["alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false} },
     { "keys": ["alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true} },
+    { "keys": ["shift+alt+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
+    { "keys": ["shift+alt+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true}},
 
     { "keys": ["f15"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"}},
     { "keys": ["f16"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"}},
