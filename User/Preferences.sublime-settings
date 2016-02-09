@@ -23,9 +23,11 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.pdf",
 		"*.sublime-workspace"
 	],
-	"font_size": 22,
+	"font_size": 21,
+	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -36,6 +38,5 @@
 	[
 		80
 	],
-	"trim_trailing_white_space_on_save": true,
-	"highlight_line": true
+	"trim_trailing_white_space_on_save": true
 }
