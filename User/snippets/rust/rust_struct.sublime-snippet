@@ -1,15 +1,12 @@
 <snippet>
 	<content><![CDATA[
 #[derive(Debug)]
-struct ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
-{
+struct ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
 	${2},
 }
 
-impl ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
-{
-	pub fn new(${3}) -> ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
-	{
+impl ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
+	pub fn new(${3}) -> ${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
 		${1:${TM_FILENAME/(.+)\..+|.*/$1/:name}} {
 			${4},
 		}

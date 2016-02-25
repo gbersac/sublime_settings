@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"42 Headers",
+		"BeautifyRust",
 		"BracketHighlighter",
+		"Package Control",
 		"Project Manager",
 		"Rust",
-		"SideBarEnhancements"
+		"SideBarEnhancements",
+		"WordHighlight"
 	]
 }
