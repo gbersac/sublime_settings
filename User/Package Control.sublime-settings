@@ -12,6 +12,8 @@
 		"Project Manager",
 		"Rust",
 		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-contrib-rustc",
 		"WordHighlight"
 	]
 }
