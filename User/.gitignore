@@ -11,6 +11,7 @@
 !Default (OSX).sublime-keymap
 !Package Control.sublime-settings
 !SublimeLinter.sublime-settings
+!Scala.sublime-settings
 
 # and still those files
 .DS_Store
